@@ -1,0 +1,50 @@
+
+.header{
+	display: grid;
+	background-color: darkmagenta;
+	grid-template-columns: 100px 1fr 200px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+nav a,
+.mainlink a{
+	color: white;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+nav{
+	grid-column: 3;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+
+}
+
+html{
+	background-color: rgb(73, 23, 73);
+	color: rgb(235, 235, 235);
+}
+
+.content{
+	max-width: 50rem;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: large;
+	
+}
+.post{
+	grid-column: 2;
+}
+
+h1{
+	text-align: center;
+}
